@@ -26,4 +26,8 @@ app.get("/", (req, res) => {
   res.json({ message: "Hello!" });
 });
 
-app.listen(PORT, () => console.info(`http://localhost:${PORT}`));
+app.listen(PORT, () =>
+  console.info(
+    `----\nServer started.\nEndpoint: http://localhost:${PORT}/api/v1\nAPI Doc: http://localhost:${PORT}/api-docs\n----`
+  )
+);
