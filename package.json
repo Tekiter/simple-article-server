@@ -1,4 +1,5 @@
 {
+  "name": "simple-article-server",
   "scripts": {
     "dev": "ts-node-dev --inspect --watch -- ./src/index.ts"
   },

@@ -1,6 +1,11 @@
 # Article-Server
 
-A simple article server for studying web frontend. It also generates swagger-ui API documentaion from OAPI spec.
+A simple mock article server for studying web frontend.
+
+### Features
+
+- Swagger-ui API documentaion from OAPI spec.
+- Data are stored in memory.
 
 ### Installation
 
