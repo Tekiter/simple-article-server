@@ -23,7 +23,7 @@ export const appRouter = t.router({
       },
     })
     .input(z.void())
-    .output(z.array(articleWithIdSchema))
+    .output(z.array(z.object({ id: z.string(), title: z.string() })))
     .query(async (req) => {
       return await articleStore.getAll();
     }),
